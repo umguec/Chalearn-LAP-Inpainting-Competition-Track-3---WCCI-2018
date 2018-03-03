@@ -48,4 +48,4 @@ Once the installation is complete, you can run the notebooks to train and valida
 **training-demo.ipynb** shows how to train a model by reconstructing training fingerprint images.
 **validation-demo.ipynb** shows how to use a trained model to reconstruct validation fingerprint images.
 
-Finally, we provide a sample submission file that can be used used as a reference for real submissions: **(sample.zip)[https://drive.google.com/file/d/1UmP30LA0JH2F5Wl8hqfkcaLX2WtG7n-W/view?usp=sharing]**
+Finally, we provide a sample submission file that can be used used as a reference for real submissions: (sample.zip)[https://drive.google.com/file/d/1UmP30LA0JH2F5Wl8hqfkcaLX2WtG7n-W/view?usp=sharing]

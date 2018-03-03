@@ -1,4 +1,4 @@
-Once a fingerprint image is generated with the Anguli software, the corresponding ground-truth and degraded fingerprint images can be obtained with the provided scripts as follwed:
+Once a fingerprint image is generated with the Anguli software, the corresponding ground-truth and degraded fingerprint images can be obtained with the provided scripts as follows:
 
 ```
 from glob import glob

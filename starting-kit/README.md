@@ -11,7 +11,6 @@ This starting kit contains the baseline model for this track to help you get sta
 ### Python
 * chainer
 * cupy
-* fptrack
 * h5py
 * jupyter
 * pillow

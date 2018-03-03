@@ -43,7 +43,7 @@ pip install chainer cupy
 
 Note: If you want to run the code on a GPU, you must have a suitable NVIDIA GPU and install the CUDA Toolkit and optionally cuDNN.
 
-Once the installation is complete, you can run the notebooks to train and validate the baseline. That is:
+Once the installation is complete, you can run the notebooks to train and validate the baseline model. That is:
 
-**training-demo.ipynb** shows how to train the model by reconstructing training fingerprint images.
+**training-demo.ipynb** shows how to train a model by reconstructing training fingerprint images.
 **validation-demo.ipynb** shows how to use a trained model to reconstruct validation fingerprint images.

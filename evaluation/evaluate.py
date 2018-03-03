@@ -5,7 +5,6 @@ import errno
 import glob
 import numpy as np
 import os
-import pickle
 import skimage.measure
 import sys
 
@@ -30,8 +29,8 @@ for fp in glob.glob(os.path.join(ref_path, '*.jpg')):
         psnr.append(0)
         ssim.append(0)
 
-        y = np.array(PIL.Image.open(fp).convert('L')) / 255
-        y_hat = np.array(PIL.Image.open(os.path.join(res_path, os.path.split(fp)[1])).convert('L').resize((275, 400))) / 255
+        y = np.array(PIL.Image.open(fp).convert('L')) / 255.0
+        y_hat = np.array(PIL.Image.open(os.path.join(res_path, os.path.split(fp)[1])).convert('L').resize((275, 400))) / 255.0
         mse[-1] = skimage.measure.compare_mse(y, y_hat)
         psnr[-1] = skimage.measure.compare_psnr(y, y_hat)
         ssim[-1] = skimage.measure.compare_ssim(y, y_hat)
